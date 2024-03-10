@@ -1,3 +1,9 @@
+@media (max-width: 576px) {
+    .element {
+      display: none;
+    }
+  }
+
 .vislink {
     text-decoration:double;
     /*padding-right: 62px;*/
@@ -20,14 +26,3 @@
     /*filter:drop-shadow(5px 5px red)*/
     background-color: #00a693;
 }
-/*
-.whole-card {
-    transition: transfrom .1s;
-    width: 20px;
-    height: 20px;
-    margin: 0 auto;
-}
-.whole-card:hover{
-    transform: scale(1.1);
-}
-*/
