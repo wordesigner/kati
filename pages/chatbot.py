@@ -64,7 +64,7 @@ chatthing_tag = 'chat thing'
 peopleai_title = 'پیپل ای آی'
 peopleai_subtitle = 'chatbotkit'
 peopleai_desc = 'این اپلیکیشن با استفاده از پروفایل‌های توییتر برای کاربران چت بات شخصی ایجاد می‌کند که می‌تواند به جای آنها پرسش‌های دیگران را پاسخ دهد. همچنین امکان گفتگو با بسیاری از شخصیت‌های تاریخی را دارد'
-peopleai_access = 'رایگان و پولی'
+peopleai_access = 'رایگان وو پولی'
 peopleai_link = 'https://chatbotkit.com/apps/peopleai'
 peopleai_tag = 'peopleai'
 
