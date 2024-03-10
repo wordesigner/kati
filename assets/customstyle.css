@@ -1,0 +1,33 @@
+.vislink {
+    text-decoration:double;
+    /*padding-right: 62px;*/
+    color: #fff;
+}
+.vislink:hover {
+    text-decoration: none;
+    /*padding-right: 62px;*/
+    filter: blur(3px);
+    
+}
+.whole-card {
+    border: 2px solid #00a693; 
+    border-radius: 5px;
+    text-align: center; 
+    margin-top: 40px; 
+    background-color: #fff;
+}
+.whole-card:hover {
+    /*filter:drop-shadow(5px 5px red)*/
+    background-color: #00a693;
+}
+/*
+.whole-card {
+    transition: transfrom .1s;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+}
+.whole-card:hover{
+    transform: scale(1.1);
+}
+*/
