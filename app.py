@@ -16,6 +16,7 @@ external_stylesheets = [
 """
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP, dbc.icons.BOOTSTRAP], use_pages=True, suppress_callback_exceptions=True)
+server = app.server
 
 app.layout = html.Div([
     dbc.Container([
