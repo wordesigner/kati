@@ -16,16 +16,34 @@ layout = html.Div([
         dbc.Row([
             dbc.Col([
                 html.Div(html.I(className='bi bi-card-list'), style={'font-size':'200px'}),
-            ], className='col-md-4 col-sm-6', style={'text-align':'left'}),
+                dbc.Col([
+                    
+                ], className='col'),
+                dbc.Col([
+                    html.P('فهرست ابزار')
+                ], className='col'),
+                dbc.Col([
+                    
+                ], className='col'),
+            ], className='col', style={'text-align':'center'}),
             dbc.Col([
                 
-            ], className='col-md-2', style={'text-align':'center'}),
+            ], className='col', style={'text-align':'center'}),
             dbc.Col([
                 
-            ], className='col-md-2', style={'text-align':'center'}),
+            ], className='col', style={'text-align':'center'}),
             dbc.Col([
                 html.Div(html.I(className='bi bi-search'), style={'font-size':'200px'}),
-            ], className='col-md-4 col-sm-6')
+                dbc.Col([
+                    
+                ], className='col' ,style={'text-align':'center'}),
+                dbc.Col([
+                    html.P('جستجو')
+                ], className='col' ,style={'text-align':'center'}),
+                dbc.Col([
+                    
+                ], className='col' ,style={'text-align':'center'}),
+            ], className='col')
         ]),
     ]),
     dbc.Container([
