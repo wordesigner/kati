@@ -1,6 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+}
+.footer-position {
+    position: relative;
+    top: 79px;
+
+}
 @media (max-width: 576px) {
     .element {
       display: none;
+    }
+    .mobile-footer {
+        position: relative;
+        top: 205px;
+    }
+    .mobile-list-icon {
+        padding-right: 124px;
     }
   }
 
