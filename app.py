@@ -33,9 +33,9 @@ app.layout = html.Div([
                         dbc.NavItem(dbc.NavLink('درباره ما', href='/about')),
                         dbc.NavItem(dbc.NavLink('پرامپت‌ها', href='/prompts'))
 
-                    ], brand='کتی', brand_href='/', color='danger', dark=True
+                    ], brand='کتی', brand_href='/', color='danger', dark=True, style={'padding-right':'0px'}
                 )
-            ], style={'padding-right':'0px'})
+            ], style={'padding-right':'0px', 'padding-left':'0px'})
         ])
     ], fluid=True, className='g-0'),
     dash.page_container
