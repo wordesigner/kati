@@ -14,18 +14,19 @@ register_page(
 layout = html.Div([
     dbc.Container([
         dbc.Row([
+            
             dbc.Col([
-                html.Div(html.I(className='bi bi-card-list'), style={'font-size':'200px'}),
+                html.Div(html.I(className='bi bi-card-list'), style={'font-size':'150px'}),
                 dbc.Col([
                     
                 ], className='col'),
                 dbc.Col([
-                    html.P('فهرست ابزار')
+                    html.A('فهرست ابزارها', href='/browse', target='_self')
                 ], className='col'),
                 dbc.Col([
                     
                 ], className='col'),
-            ], className='col', style={'text-align':'center'}),
+            ], className='col mobile-list-icon', style={'text-align':'center'}),
             dbc.Col([
                 
             ], className='col', style={'text-align':'center'}),
@@ -33,18 +34,18 @@ layout = html.Div([
                 
             ], className='col', style={'text-align':'center'}),
             dbc.Col([
-                html.Div(html.I(className='bi bi-search'), style={'font-size':'200px'}),
+                html.Div(html.I(className='bi bi-search'), style={'font-size':'150px'}),
                 dbc.Col([
                     
                 ], className='col' ,style={'text-align':'center'}),
                 dbc.Col([
-                    html.P('جستجو')
+                    html.A('جستجو', href='/search', target='_self')
                 ], className='col' ,style={'text-align':'center'}),
                 dbc.Col([
                     
                 ], className='col' ,style={'text-align':'center'}),
-            ], className='col')
-        ]),
+            ], className='col', style={'text-align':'center'})
+        ], style={'height':'343px'}),
     ]),
     dbc.Container([
         dbc.Row([
@@ -52,7 +53,7 @@ layout = html.Div([
                 html.Div([
                     html.Img(src='https://www.alirezaoboodiat.com/wp-content/uploads/2024/03/1.jpg', width='100%', height='250px'),
                 ], className='bg-primary')
-            ], style={'padding-right':'0px'}, md=2, sm=2),
+            ], style={'padding-right':'0px', 'padding-left':'0px'}, md=2, sm=2, className='mobile-footer'),
             dbc.Col([
                 html.Div([
                     html.Img(src='https://www.alirezaoboodiat.com/wp-content/uploads/2024/03/3.jpg', width='100%', height='250px'),
@@ -77,7 +78,7 @@ layout = html.Div([
                 html.Div([
                     html.Img(src='https://www.alirezaoboodiat.com/wp-content/uploads/2024/03/4.jpg', width='100%', height='250px'),
                 ], className='bg-primary')
-            ], style={'padding-right':'0px'}, md=2, sm=2, className='element'),
-        ], style={'margin-top':'132px'})
+            ], style={'padding-right':'0px', 'left-padding':'0px'}, md=2, sm=2, className='element'),
+        ], className='footer-position')
     ], fluid=True, className='g-0')
 ])
