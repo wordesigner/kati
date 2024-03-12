@@ -2,6 +2,9 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
 @font-face {
     font-family: Sahel;
     src: url('Sahel-FD-WOL.eot');
@@ -71,4 +74,16 @@ body {
 .whole-card:hover {
     /*filter:drop-shadow(5px 5px red)*/
     background-color: #00a693;
+}
+
+.main-page-services {
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    transform: scale(0.9);
+}
+
+.main-page-services:hover {
+    transform: scale(1);
+    text-decoration: none;
 }
