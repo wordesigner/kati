@@ -5,6 +5,10 @@
 a {
     text-decoration: none;
 }
+
+P {
+    font-family: Sahel !important;
+}
 @font-face {
     font-family: Sahel;
     src: url('Sahel-FD-WOL.eot');
@@ -16,7 +20,7 @@ a {
 }
 body {
     direction: rtl;
-    font-family: Sahel;
+    font-family: Sahel !important;
 }
 .footer-position {
     position: relative;
