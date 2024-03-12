@@ -24,13 +24,13 @@ app.layout = html.Div([
             dbc.Col([
                 dbc.NavbarSimple(
                     children=[
-                        dbc.NavItem(dbc.NavLink('خانه', href='/')),
+                        #dbc.NavItem(dbc.NavLink('خانه', href='/')),
                         dbc.NavItem(dbc.NavLink('دسته‌ها', href='/browse')),
                         dbc.NavItem(dbc.NavLink('جستجو', href='/search')),
                         dbc.NavItem(dbc.NavLink('تولید متن', href='/chatbot')),
                         dbc.NavItem(dbc.NavLink('تولید تصویر و ویدیو', href='/visual-art-generation')),
                         dbc.NavItem(dbc.NavLink('تولید صدا', href='/audible-art-generation')),
-                        dbc.NavItem(dbc.NavLink('درباره ما', href='/about')),
+                        #dbc.NavItem(dbc.NavLink('درباره ما', href='/about')),
                         dbc.NavItem(dbc.NavLink('پرامپت‌ها', href='/prompts'))
 
                     ], brand='کتی', brand_href='/', color='danger', dark=True, style={'padding-right':'0px'}
