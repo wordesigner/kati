@@ -37,14 +37,14 @@ suno_title = 'سونو ای آی'
 suno_subtitle = ''
 suno_desc = 'یک ابزار جالب برای ساخت آهنگ به زبان‌ها و سبک‌های مختلف در زبان‌های مختلف است'
 suno_access = 'رایگان و پولی'
-suno_link = 'https://suno.ai/?via=topaitools'
+suno_link = 'https://suno.ai'
 suno_tag = 'Suno Ai'
 
 musicfy_title = 'موزیکفای'
 musicfy_subtitle = ''
 musicfy_desc = 'ابزاری که می‌تواند یک آهنگ را با صدای هوش مصنوعی باز تولید کند'
 musicfy_access = 'رایگان و پولی'
-musicfy_link = 'https://musicfy.lol/?via=topaitools'
+musicfy_link = 'https://musicfy.lol'
 musicfy_tag = 'Musicfy'
 
 
