@@ -10,10 +10,15 @@ register_page(
     __name__
 )
 
-bot = html.I(className='bi bi-robot', style={'font-size':'200px'})
-art = html.I(className='bi bi-easel2-fill', style={'font-size':'200px'})
-audio = html.I(className='bi bi-soundwave', style={'font-size':'200px'})
-work = html.I(className='bi bi-person-workspace', style={'font-size':'200px'})
+bot = html.I(className='bi bi-robot', style={'font-size':'200px'}, id='persian-green')
+art = html.I(className='bi bi-easel2-fill', style={'font-size':'200px'}, id='persian-green')
+audio = html.I(className='bi bi-soundwave', style={'font-size':'200px'}, id='persian-green')
+work = html.I(className='bi bi-person-workspace', style={'font-size':'200px'}, id='persian-green')
+
+chatbot_string = 'چت بات'
+art_string = 'هنر'
+audio_string = 'آوا و موسیقی'
+work_string = 'کار و پروژه'
 
 layout = html.Div([
     dbc.Container([
@@ -21,7 +26,7 @@ layout = html.Div([
             dbc.Col([
                 html.A(bot, href='/chatbot', target='_blank'),
                 html.Br(),
-                html.P('چت بات')
+                html.A(chatbot_string, href='/chatbot', target='_blank', id='persian-black')
             ], className='col-md-4 col-sm-6', style={'text-align':'center'}),
             dbc.Col([
                 
@@ -32,14 +37,14 @@ layout = html.Div([
             dbc.Col([
                 html.A(art, href='/visual-art-generation', target='_blank'),
                 html.Br(),
-                html.P('هنر')                
+                html.A(art_string, href='/chatbot', target='_blank', id='persian-black')
             ], className='col-md-4 col-sm-6', style={'text-align':'center'}),
         ]),
         dbc.Row([
             dbc.Col([
                 html.A(audio, href='/audible-art-generation', target='_blank'),
                 html.Br(),
-                html.P('آوا و موسیقی')  
+                html.A(audio_string, href='/chatbot', target='_blank', id='persian-black')
             ], className='col-md-4 col-sm-6', style={'text-align':'center'}),
             dbc.Col([
                 
@@ -50,7 +55,7 @@ layout = html.Div([
             dbc.Col([
                 html.A(work, href='/', target='_blank'),
                 html.Br(),
-                html.P('کار و پروژه')                 
+                html.A(work_string, href='/chatbot', target='_blank', id='persian-black')
             ], className='col-md-4 col-sm-6', style={'text-align':'center'}),
         ]),
     ])
