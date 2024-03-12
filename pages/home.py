@@ -16,12 +16,12 @@ layout = html.Div([
         dbc.Row([
             
             dbc.Col([
-                html.Div(html.I(className='bi bi-card-list'), style={'font-size':'150px'}),
+                html.A(html.I(className='bi bi-card-list'), style={'font-size':'150px'}, href='/browse', target='_self', id='persian-green'),
                 dbc.Col([
                     
                 ], className='col'),
                 dbc.Col([
-                    html.A('فهرست ابزارها', href='/browse', target='_self')
+                    html.A('فهرست ابزارها', href='/browse', target='_self', id='persian-black')
                 ], className='col main-page-services'),
                 dbc.Col([
                     
@@ -34,12 +34,12 @@ layout = html.Div([
                 
             ], className='col', style={'text-align':'center'}),
             dbc.Col([
-                html.Div(html.I(className='bi bi-search'), style={'font-size':'150px'}),
+                html.A(html.I(className='bi bi-search'), style={'font-size':'150px'}, href='/search', target='_self', id='persian-green'),
                 dbc.Col([
                     
                 ], className='col' ,style={'text-align':'center'}),
                 dbc.Col([
-                    html.A('جستجو', href='/search', target='_self')
+                    html.A('جستجو', href='/search', target='_self', id='persian-black')
                 ], className='col main-page-services' ,style={'text-align':'center'}),
                 dbc.Col([
                     
