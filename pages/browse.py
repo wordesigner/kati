@@ -10,13 +10,18 @@ register_page(
     __name__
 )
 
-a = html.I(className='bi bi-circle-fill', style={'font-size':'200px'})
+bot = html.I(className='bi bi-robot', style={'font-size':'200px'})
+art = html.I(className='bi bi-easel2-fill', style={'font-size':'200px'})
+audio = html.I(className='bi bi-soundwave', style={'font-size':'200px'})
+work = html.I(className='bi bi-person-workspace', style={'font-size':'200px'})
 
 layout = html.Div([
     dbc.Container([
         dbc.Row([
             dbc.Col([
-                html.A(a, href='/chatbot', target='_blank')
+                html.A(bot, href='/chatbot', target='_blank'),
+                html.Br(),
+                html.P('چت بات')
             ], className='col-md-4 col-sm-6', style={'text-align':'center'}),
             dbc.Col([
                 
@@ -25,12 +30,16 @@ layout = html.Div([
                 
             ], className='col-md-2', style={'text-align':'center'}),
             dbc.Col([
-                html.A(a, href='/visual-art-generation', target='_blank')                
+                html.A(art, href='/visual-art-generation', target='_blank'),
+                html.Br(),
+                html.P('هنر')                
             ], className='col-md-4 col-sm-6', style={'text-align':'center'}),
         ]),
         dbc.Row([
             dbc.Col([
-                html.A(a, href='/audible-art-generation', target='_blank')
+                html.A(audio, href='/audible-art-generation', target='_blank'),
+                html.Br(),
+                html.P('آوا و موسیقی')  
             ], className='col-md-4 col-sm-6', style={'text-align':'center'}),
             dbc.Col([
                 
@@ -39,7 +48,9 @@ layout = html.Div([
                 
             ], className='col-md-2', style={'text-align':'center'}),
             dbc.Col([
-                html.A(a, href='/', target='_blank')                
+                html.A(work, href='/', target='_blank'),
+                html.Br(),
+                html.P('کار و پروژه')                 
             ], className='col-md-4 col-sm-6', style={'text-align':'center'}),
         ]),
     ])
