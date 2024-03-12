@@ -2,8 +2,18 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: Sahel;
+    src: url('Sahel-FD-WOL.eot');
+    src: url('Sahel.eot?#iefix') format('embedded-opentype'),
+       url('Sahel.woff2') format('woff2'),
+       url('Sahel.woff') format('woff'),
+       url('Sahel.ttf') format('truetype');
+    font-weight: normal;
+}
 body {
     direction: rtl;
+    font-family: sahel;
 }
 .footer-position {
     position: relative;
