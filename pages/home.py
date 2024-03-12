@@ -22,7 +22,7 @@ layout = html.Div([
                 ], className='col'),
                 dbc.Col([
                     html.A('فهرست ابزارها', href='/browse', target='_self')
-                ], className='col'),
+                ], className='col main-page-services'),
                 dbc.Col([
                     
                 ], className='col'),
@@ -40,7 +40,7 @@ layout = html.Div([
                 ], className='col' ,style={'text-align':'center'}),
                 dbc.Col([
                     html.A('جستجو', href='/search', target='_self')
-                ], className='col' ,style={'text-align':'center'}),
+                ], className='col main-page-services' ,style={'text-align':'center'}),
                 dbc.Col([
                     
                 ], className='col' ,style={'text-align':'center'}),
