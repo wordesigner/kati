@@ -7,10 +7,10 @@ a {
 }
 
 P {
-    font-family: Sahel !important;
+    font-family: 'Sahel' !important;
 }
 @font-face {
-    font-family: Sahel;
+    font-family: 'Sahel';
     src: url('Sahel-FD-WOL.eot');
     src: url('Sahel.eot?#iefix') format('embedded-opentype'),
        url('Sahel.woff2') format('woff2'),
@@ -20,7 +20,7 @@ P {
 }
 body {
     direction: rtl;
-    font-family: Sahel !important;
+    font-family: 'Sahel' !important;
 }
 .footer-position {
     position: relative;
@@ -30,7 +30,7 @@ body {
 
 @media only screen and (max-width: 2500px) {
     body {
-      font-family: Sahel, sans-serif !important;
+      font-family: 'Sahel', sans-serif !important;
     }
   }
 
