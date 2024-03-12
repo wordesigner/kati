@@ -13,13 +13,20 @@
 }
 body {
     direction: rtl;
-    font-family: sahel;
+    font-family: Sahel;
 }
 .footer-position {
     position: relative;
     top: 79px;
 
 }
+
+@media only screen and (max-width: 2500px) {
+    body {
+      font-family: Sahel, sans-serif !important;
+    }
+  }
+
 @media (max-width: 576px) {
     .element {
       display: none;
