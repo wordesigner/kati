@@ -87,3 +87,11 @@ body {
     transform: scale(1);
     text-decoration: none;
 }
+
+#persian-green {
+    color: #008f7e;
+}
+
+#persian-black {
+    color: #000000;
+}
