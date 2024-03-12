@@ -38,6 +38,9 @@ body {
     .mobile-list-icon {
         padding-right: 124px;
     }
+    .navbar-collapse {
+        padding-right: 17px;
+    }
   }
 
   @media only screen and (min-width: 992px) {
