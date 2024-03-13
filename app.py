@@ -30,6 +30,7 @@ app.layout = html.Div([
                         dbc.NavItem(dbc.NavLink('تولید متن', href='/chatbot')),
                         dbc.NavItem(dbc.NavLink('تولید تصویر و ویدیو', href='/visual-art-generation')),
                         dbc.NavItem(dbc.NavLink('تولید صدا', href='/audible-art-generation')),
+                        dbc.NavItem(dbc.NavLink('کار و پروژه', href='/productivity')),
                         #dbc.NavItem(dbc.NavLink('درباره ما', href='/about')),
                         dbc.NavItem(dbc.NavLink('پرامپت‌ها', href='/prompts'))
 
