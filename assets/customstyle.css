@@ -22,11 +22,6 @@ body {
     direction: rtl;
     font-family: 'Sahel' !important;
 }
-.footer-position {
-    position: relative;
-    top: 79px;
-
-}
 
 @media only screen and (max-width: 2500px) {
     body {
