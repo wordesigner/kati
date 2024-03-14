@@ -30,7 +30,7 @@ app.layout = html.Div([
                         dbc.NavItem(dbc.NavLink('تولید متن', href='/chatbot')),
                         dbc.NavItem(dbc.NavLink('تولید تصویر و ویدیو', href='/visual-art-generation')),
                         dbc.NavItem(dbc.NavLink('تولید صدا', href='/audible-art-generation')),
-                        dbc.NavItem(dbc.NavLink('کار و پروژه', href='/productivity')),
+                        dbc.NavItem(dbc.NavLink('ابزارها', href='/productivity')),
                         #dbc.NavItem(dbc.NavLink('درباره ما', href='/about')),
                         dbc.NavItem(dbc.NavLink('پرامپت‌ها', href='/prompts'))
 
@@ -39,6 +39,15 @@ app.layout = html.Div([
             ], style={'padding-right':'0px', 'padding-left':'0px'})
         ])
     ], fluid=True, className='g-0'),
+    dbc.Container([
+        dbc.Row([
+            dbc.Col([
+                html.Div([
+                    html.H6('کتی؛ راهنمای جیبی هوش مصنوعی', style={'color':'#8cd7ce','padding-top':'15px','text-align':'right', 'padding-right':'40px'})
+                ])
+            ], style={'height':'50px'})
+        ])
+    ], fluid=True, style={'background-color':'#008f7e'}, className='main-footer g-0'),
     dash.page_container
 ], style={'direction':'rtl'})
 
