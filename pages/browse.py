@@ -10,15 +10,15 @@ register_page(
     __name__
 )
 
-bot = html.I(className='bi bi-robot', style={'font-size':'200px'}, id='persian-green')
-art = html.I(className='bi bi-easel2-fill', style={'font-size':'200px'}, id='persian-green')
-audio = html.I(className='bi bi-soundwave', style={'font-size':'200px'}, id='persian-green')
-work = html.I(className='bi bi-person-workspace', style={'font-size':'200px'}, id='persian-green')
+bot = html.I(className='bi bi-robot', style={'font-size':'180px'}, id='persian-green')
+art = html.I(className='bi bi-easel2-fill', style={'font-size':'180px'}, id='persian-green')
+audio = html.I(className='bi bi-soundwave', style={'font-size':'180px'}, id='persian-green')
+work = html.I(className='bi bi-person-workspace', style={'font-size':'180px'}, id='persian-green')
 
 chatbot_string = 'چت بات'
-art_string = 'هنر'
+art_string = 'هنرهای تصویری'
 audio_string = 'آوا و موسیقی'
-work_string = 'کار و پروژه'
+work_string = 'ابزارها'
 
 layout = html.Div([
     dbc.Container([
@@ -55,7 +55,7 @@ layout = html.Div([
             dbc.Col([
                 html.A(work, href='/', target='_blank'),
                 html.Br(),
-                html.A(work_string, href='/chatbot', target='_blank', id='persian-black')
+                html.A(work_string, href='/productivity', target='_blank', id='persian-black')
             ], className='col-md-4 col-sm-6', style={'text-align':'center'}),
         ]),
     ])
