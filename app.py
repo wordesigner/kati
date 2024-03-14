@@ -4,17 +4,6 @@ from dash.dependencies import Output, Input
 from dash import dcc
 from dash import html
 
-"""
-external_stylesheets = [
-    {  "href": "/customstyle.css"
-                "family=Lato:wght@400;700&display=swap",
-        "rel": "stylesheet",
-    },
-    dbc.themes.BOOTSTRAP,
-    dbc.icons.BOOTSTRAP
-]
-"""
-
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP, dbc.icons.BOOTSTRAP], use_pages=True, suppress_callback_exceptions=True)
 server = app.server
 
