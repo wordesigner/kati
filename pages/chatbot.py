@@ -74,7 +74,7 @@ layout = html.Div([
         dbc.Row([
             dbc.Col([
                 html.Div([
-                    html.H2(gpt_title),
+                    html.H2(gpt_title, className='margin-top-six'),
                     html.H5(gpt_subtitle),
                     html.P(gpt_desc),
                     html.Hr(),
@@ -94,7 +94,7 @@ layout = html.Div([
         dbc.Row([
             dbc.Col([
                 html.Div([
-                    html.H2(gemini_title),
+                    html.H2(gemini_title, className='margin-top-six'),
                     html.H5(gemini_subtitle),
                     html.P(gemini_desc),
                     html.Hr(),
@@ -114,7 +114,7 @@ layout = html.Div([
         dbc.Row([
             dbc.Col([
                 html.Div([
-                    html.H2(copilot_title),
+                    html.H2(copilot_title, className='margin-top-six'),
                     html.H5(copilot_subtitle),
                     html.P(copilot_desc),
                     html.Hr(),
@@ -134,7 +134,7 @@ layout = html.Div([
         dbc.Row([
             dbc.Col([
                 html.Div([
-                    html.H2(chatpdf_title),
+                    html.H2(chatpdf_title, className='margin-top-six'),
                     html.H5(chatpdf_subtitle),
                     html.P(chatpdf_desc),
                     html.Hr(),
@@ -154,7 +154,7 @@ layout = html.Div([
         dbc.Row([
             dbc.Col([
                 html.Div([
-                    html.H2(faraday_title),
+                    html.H2(faraday_title, className='margin-top-six'),
                     html.H5(faraday_subtitle),
                     html.P(faraday_desc),
                     html.Hr(),
@@ -174,7 +174,7 @@ layout = html.Div([
         dbc.Row([
             dbc.Col([
                 html.Div([
-                    html.H2(chattube_title),
+                    html.H2(chattube_title, className='margin-top-six'),
                     html.H5(chattube_subtitle),
                     html.P(chattube_desc),
                     html.Hr(),
@@ -194,7 +194,7 @@ layout = html.Div([
         dbc.Row([
             dbc.Col([
                 html.Div([
-                    html.H2(chatthing_title),
+                    html.H2(chatthing_title, className='margin-top-six'),
                     html.H5(chatthing_subtitle),
                     html.P(chatthing_desc),
                     html.Hr(),
@@ -214,7 +214,7 @@ layout = html.Div([
         dbc.Row([
             dbc.Col([
                 html.Div([
-                    html.H2(peopleai_title),
+                    html.H2(peopleai_title, className='margin-top-six'),
                     html.H5(peopleai_subtitle),
                     html.P(peopleai_desc),
                     html.Hr(),
@@ -231,7 +231,7 @@ layout = html.Div([
                 ], className='mb-1')
             ], md=6, className='whole-card'),
         ]),
-    ])
+    ], style={'padding-right':'22px'}, className='browse-overflow')
 ])
 """
 @callback(

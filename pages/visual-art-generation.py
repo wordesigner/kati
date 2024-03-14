@@ -393,7 +393,7 @@ layout = html.Div([
                 ], className='mb-1')
             ], md=6, className='whole-card'),
         ]),
-    ])
+    ], className='vabo')
 ])
 """
 @callback(
