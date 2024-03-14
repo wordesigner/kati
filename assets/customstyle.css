@@ -48,6 +48,18 @@ body {
     .navbar-collapse {
         padding-right: 17px;
     }
+    .result-overflow {
+        max-height: 60vh;
+    }
+    .browse-overflow {
+        max-height: 60vh;
+    }
+    .vabo {
+        max-height: 60vh !important;
+    }
+    .hide-on-mobile {
+        display: none;
+    }
   }
 
   @media only screen and (min-width: 992px) {
@@ -98,4 +110,54 @@ body {
 
 #persian-black {
     color: #000000;
+}
+#bg-persian-green {
+    background-color: #008f7e;
+}
+.border-less {
+    border: none;
+}
+.margin-top-six {
+    margin-top: 6px;
+}
+.gpt-intro {
+    text-align: justify;
+    color: #008f7e;
+    font-size: 13px;
+    font-weight: lighter;
+    line-height: 30px;
+    margin-top: 35px;
+}
+#gpt-intro-holder {
+    margin-right: 15px;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+}
+.result-overflow {
+    max-height: 62vh; /* Set max-height to 80% of viewport height */
+    overflow-y: auto; /* Add vertical scrollbar if content overflows */
+}
+.browse-overflow {
+    max-height: 82vh;
+    overflow-y: auto;
+}
+.vabo {
+    max-height: 77vh !important;
+    overflow-y: auto !important;
+}
+.main-footer {
+    position: fixed;
+    bottom: 0;
+}
+
+.result-overflow::-webkit-scrollbar {
+    display: none;
+}
+.browse-overflow::-webkit-scrollbar {
+    display: none;
+}
+.vabo::-webkit-scrollbar {
+    display: none;
 }
