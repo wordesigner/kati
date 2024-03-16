@@ -12,20 +12,23 @@ P {
 @font-face {
     font-family: 'Sahel';
     src: url('Sahel-FD-WOL.eot');
-    src: url('Sahel.eot?#iefix') format('embedded-opentype'),
-       url('Sahel.woff2') format('woff2'),
-       url('Sahel.woff') format('woff'),
-       url('Sahel.ttf') format('truetype');
+    src: url('Sahel.eot?#iefix') format('embedded-opentype'),url('Sahel-FD-WOL.woff2') format('woff2'),url('Sahel-FD-WOL.woff') format('woff'),url('Sahel-FD-WOL.ttf') format('truetype');
     font-weight: normal;
 }
 body {
     direction: rtl;
     font-family: 'Sahel' !important;
 }
+.footer-position {
+    position: relative;
+    top: 79px;
+
+}
 
 @media only screen and (max-width: 2500px) {
     body {
       font-family: 'Sahel', sans-serif !important;
+      src: url('Sahel-FD-WOL.ttf');
     }
   }
 
@@ -33,6 +36,10 @@ body {
     .element {
       display: none;
     }
+    body {
+        font-family: 'Sahel', sans-serif !important;
+        src: url('Sahel-FD-WOL.ttf');
+      }
     .mobile-footer {
         position: relative;
         top: 205px;
