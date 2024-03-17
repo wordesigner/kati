@@ -152,6 +152,7 @@ body {
 .main-footer {
     position: fixed;
     bottom: 0;
+    right: 10px;
 }
 
 .result-overflow::-webkit-scrollbar {
