@@ -66,6 +66,14 @@ body {
     .hide-on-mobile {
         display: none;
     }
+    .mobile-badge {
+        background-color: red;
+        height: 22px;
+        width: 48px;
+        position: absolute;
+        top: 295px;
+        right: 91px;
+    }
   }
 
   @media only screen and (min-width: 992px) {
@@ -155,7 +163,10 @@ body {
     /*max-height: 77vh !important;*/
     overflow-y: auto !important;
 }
-
+.big-badge {
+    background-color: red;
+    height: 22px; 
+}
 
 .result-overflow::-webkit-scrollbar {
     display: none;
@@ -173,3 +184,4 @@ body {
     padding-left: 0;
     padding-right: 0;
 }
+
