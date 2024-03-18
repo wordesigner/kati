@@ -50,7 +50,7 @@ body {
     .navbar-collapse {
         padding-right: 17px;
     }
-    .result-overflow {
+    /*.result-overflow {
         max-height: 60vh;
     }
     .browse-overflow {
@@ -58,7 +58,7 @@ body {
     }
     .vabo {
         max-height: 60vh !important;
-    }
+    }*/
     .hide-on-mobile {
         display: none;
     }
@@ -138,15 +138,15 @@ body {
     bottom: 0;
 }
 .result-overflow {
-    max-height: 62vh; /* Set max-height to 80% of viewport height */
-    overflow-y: auto; /* Add vertical scrollbar if content overflows */
+    /*max-height: 62vh;*/
+    overflow-y: auto;
 }
 .browse-overflow {
-    max-height: 82vh;
+    /*max-height: 82vh;*/
     overflow-y: auto;
 }
 .vabo {
-    max-height: 77vh !important;
+    /*max-height: 77vh !important;*/
     overflow-y: auto !important;
 }
 .main-footer {
