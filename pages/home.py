@@ -8,7 +8,8 @@ from dash import callback
 
 register_page(
     __name__,
-    path='/'
+    path='/',
+    title='کتی؛ دستیار جیبی هوش مصنوعی'
 )
 
 layout = html.Div([

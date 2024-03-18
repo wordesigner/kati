@@ -53,7 +53,7 @@ layout = html.Div([
                 
             ], className='col-md-2', style={'text-align':'center'}),
             dbc.Col([
-                html.A(work, href='/', target='_blank'),
+                html.A(work, href='/productivity', target='_blank'),
                 html.Br(),
                 html.A(work_string, href='/productivity', target='_blank', id='persian-black')
             ], className='col-md-4 col-sm-6', style={'text-align':'center'}),
