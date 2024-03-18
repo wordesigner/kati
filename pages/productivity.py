@@ -70,5 +70,5 @@ layout = html.Div([
             ], md=6, className='whole-card'),
         ]),
        
-    ], style={'margin-bottom':'70px'})
+    ], style={'margin-bottom':'70px', 'padding-right':'37px'})
 ])

@@ -150,5 +150,5 @@ layout = html.Div([
                 ], className='mb-1')
             ], md=6, className='whole-card'),
         ]),
-    ], className='browse-overflow', style={'margin-bottom':'70px'})
+    ], className='browse-overflow', style={'margin-bottom':'70px', 'padding-right':'37px'})
 ])
