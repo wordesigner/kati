@@ -4,8 +4,9 @@ from dash.dependencies import Output, Input
 from dash import dcc
 from dash import html
 
-app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP, dbc.icons.BOOTSTRAP], use_pages=True, suppress_callback_exceptions=True, meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}])
+app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP, dbc.icons.BOOTSTRAP], use_pages=True, suppress_callback_exceptions=True, meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1", 'charset':'UTF-8'}])
 server = app.server
+app.title = 'کتی؛ دستیار جیبی هوش مصنوعی'
 
 app.layout = html.Div([
     dbc.Container([
@@ -27,18 +28,21 @@ app.layout = html.Div([
                 )
             ], style={'padding-right':'0px', 'padding-left':'0px'})
         ])
-    ], fluid=True, className='g-0'),
+    ], fluid=True, className='g-0 main'),
     dbc.Container([
         dbc.Row([
             dbc.Col([
-                html.Div([
-                    html.H6('کتی؛ راهنمای جیبی هوش مصنوعی', style={'color':'#8cd7ce','padding-top':'15px','text-align':'right', 'padding-right':'40px'})
-                ])
-            ], style={'height':'50px'})
+                dbc.Navbar(
+                    children=[
+                        #dbc.NavItem(dbc.NavLink('خانه', href='/')),
+                        dbc.NavItem(dbc.NavLink('کتی؛ دستیار جیبی هوش مصنوعی', style={'padding-right':'88px', 'color':'#8cd7ce'})),
+                    ], color='#00a693', dark=True, style={'padding-right':'0px', 'height':'45px'}
+                )
+            ], style={'padding-right':'0px', 'padding-left':'0px'})
         ])
-    ], fluid=True, style={'background-color':'#008f7e'}, className='main-footer g-0'),
+    ], fluid=True, className='g-0', style={'position':'fixed', 'bottom':'0px', 'z-index':'1'}),
     dash.page_container
-], style={'direction':'rtl'})
+], style={'direction':'rtl'}, lang='fa')
 
 if __name__ == '__main__':
     app.run_server(debug=True)
