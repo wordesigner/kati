@@ -21,7 +21,7 @@ vana_tag = 'vana'
 
 ideamap_title = 'آیدیامپ'
 ideamap_subtitle = ''
-ideamap_desc = 'یک ابزار جالب برای اجرای جلسه‌های طوفان فکری است که با هوش مصنوعی قابلیت‌های جدیدی به آن افزوده شده است'
+ideamap_desc = 'یک ابزار جالب برای اجرای جلسه‌های طوفان فکری است که با هوش مصنوعی کیفیت و سرعت برگزاری این جلسه‌ها را افزایش می‌دهد'
 ideamap_access = 'پولی و رایگان'
 ideamap_link = 'https://ideamap.ai/'
 ideamap_tag = 'ideamap'

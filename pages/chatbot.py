@@ -14,7 +14,7 @@ register_page(
 
 gpt_title = 'چت جی پی تی'
 gpt_subtitle = 'OpenAi'
-gpt_desc = 'چت جی پی تی، امکانی برای چت کردن با هوش مصنوعی است که بر اساس یک مدل زبانی بزرگ ایجاد شده است'
+gpt_desc = 'چت جی پی تی، امکانی برای چت کردن با هوش مصنوعی است که بر اساس یک مدل زبانی بزرگ به وجود آمده است'
 gpt_access = 'رایگان و پولی'
 gpt_link = 'https://chat.openai.com/'
 gpt_tag = 'chatgpt'
