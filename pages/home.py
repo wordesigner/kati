@@ -16,7 +16,7 @@ layout = html.Div([
         dbc.Row([
             
             dbc.Col([
-                html.A(html.I(className='bi bi-card-list'), style={'font-size':'150px'}, href='/browse', target='_self', id='persian-green'),
+                html.A(html.I(className='bi bi-card-list'), style={'font-size':'140px'}, href='/browse', target='_self', id='persian-green'),
                 dbc.Col([
                     
                 ], className='col'),
@@ -34,7 +34,7 @@ layout = html.Div([
                 
             ], className='col', style={'text-align':'center'}),
             dbc.Col([
-                html.A(html.I(className='bi bi-search'), style={'font-size':'150px'}, href='/search', target='_self', id='persian-green'),
+                html.A(html.I(className='bi bi-search'), style={'font-size':'140px'}, href='/search', target='_self', id='persian-green'),
                 dbc.Col([
                     
                 ], className='col' ,style={'text-align':'center'}),

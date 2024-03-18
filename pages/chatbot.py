@@ -231,7 +231,7 @@ layout = html.Div([
                 ], className='mb-1')
             ], md=6, className='whole-card'),
         ]),
-    ], style={'padding-right':'22px'}, className='browse-overflow')
+    ], style={'padding-right':'22px', 'margin-bottom':'70px'}, className='browse-overflow')
 ])
 """
 @callback(
