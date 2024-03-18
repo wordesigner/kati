@@ -22,7 +22,7 @@ app.layout = html.Div([
                         dbc.NavItem(dbc.NavLink('تولید صدا', href='/audible-art-generation')),
                         dbc.NavItem(dbc.NavLink('ابزارها', href='/productivity')),
                         #dbc.NavItem(dbc.NavLink('درباره ما', href='/about')),
-                        dbc.NavItem(dbc.NavLink('پرامپت‌ها', href='/prompts'))
+                        dbc.NavItem(dbc.NavLink('پرامپت‌ها', href='/')), dbc.Badge('به زودی', color='red', className='mobile-badge big-badge')
 
                     ], brand='کتی', brand_href='/', color='#00a693', dark=True, style={'padding-right':'0px'}
                 )
