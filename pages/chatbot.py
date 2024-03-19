@@ -77,7 +77,7 @@ layout = html.Div([
                     html.H2(gpt_title, className='margin-top-six'),
                     html.H5(gpt_subtitle),
                     html.P(gpt_desc),
-                    html.Hr(),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
                     html.H6(gpt_access),
                     html.A('امتحان می‌کنم', href=gpt_link, target='_blank', id='goto', className='vislink'),
                     dbc.Row([
@@ -97,7 +97,7 @@ layout = html.Div([
                     html.H2(gemini_title, className='margin-top-six'),
                     html.H5(gemini_subtitle),
                     html.P(gemini_desc),
-                    html.Hr(),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
                     html.H6(gemini_access),
                     html.A('امتحان می‌کنم', href=gemini_link, target='_blank', id='goto', className='vislink'),
                     dbc.Row([
@@ -117,7 +117,7 @@ layout = html.Div([
                     html.H2(copilot_title, className='margin-top-six'),
                     html.H5(copilot_subtitle),
                     html.P(copilot_desc),
-                    html.Hr(),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
                     html.H6(copilot_access),
                     html.A('امتحان می‌کنم', href=copilot_link, target='_blank', id='goto', className='vislink'),
                     dbc.Row([
@@ -137,7 +137,7 @@ layout = html.Div([
                     html.H2(chatpdf_title, className='margin-top-six'),
                     html.H5(chatpdf_subtitle),
                     html.P(chatpdf_desc),
-                    html.Hr(),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
                     html.H6(chatpdf_access),
                     html.A('امتحان می‌کنم', href=chatpdf_link, target='_blank', id='goto', className='vislink'),
                     dbc.Row([
@@ -157,7 +157,7 @@ layout = html.Div([
                     html.H2(faraday_title, className='margin-top-six'),
                     html.H5(faraday_subtitle),
                     html.P(faraday_desc),
-                    html.Hr(),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
                     html.H6(faraday_access),
                     html.A('امتحان می‌کنم', href=faraday_link, target='_blank', id='goto', className='vislink'),
                     dbc.Row([
@@ -177,7 +177,7 @@ layout = html.Div([
                     html.H2(chattube_title, className='margin-top-six'),
                     html.H5(chattube_subtitle),
                     html.P(chattube_desc),
-                    html.Hr(),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
                     html.H6(chattube_access),
                     html.A('امتحان می‌کنم', href=chattube_link, target='_blank', id='goto', className='vislink'),
                     dbc.Row([
@@ -197,7 +197,7 @@ layout = html.Div([
                     html.H2(chatthing_title, className='margin-top-six'),
                     html.H5(chatthing_subtitle),
                     html.P(chatthing_desc),
-                    html.Hr(),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
                     html.H6(chatthing_access),
                     html.A('امتحان می‌کنم', href=chatthing_link, target='_blank', id='goto', className='vislink'),
                     dbc.Row([
@@ -217,7 +217,7 @@ layout = html.Div([
                     html.H2(peopleai_title, className='margin-top-six'),
                     html.H5(peopleai_subtitle),
                     html.P(peopleai_desc),
-                    html.Hr(),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
                     html.H6(peopleai_access),
                     html.A('امتحان می‌کنم', href=peopleai_link, target='_blank', id='goto', className='vislink'),
                     dbc.Row([

@@ -119,7 +119,7 @@ layout = html.Div([
                     html.H2(distillery_title),
                     html.H5(distillery_subtitle),
                     html.P(distillery_desc),
-                    html.Hr(),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
                     html.H6(distillery_access),
                     html.A('امتحان می‌کنم', href=distillery_link, target='_blank', id='goto', className='vislink'),
                     dbc.Row([
@@ -139,7 +139,7 @@ layout = html.Div([
                     html.H2(bingimage_title),
                     html.H5(bingimage_subtitle),
                     html.P(bingimage_desc),
-                    html.Hr(),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
                     html.H6(bingimage_access),
                     html.A('امتحان می‌کنم', href=bingimage_link, target='_blank', id='goto', className='vislink'),
                     dbc.Row([
@@ -159,7 +159,7 @@ layout = html.Div([
                     html.H2(ideogram_title),
                     html.H5(ideogram_subtitle),
                     html.P(ideogram_desc),
-                    html.Hr(),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
                     html.H6(ideogram_access),
                     html.A('امتحان می‌کنم', href=ideogram_link, target='_blank', id='goto', className='vislink'),
                     dbc.Row([
@@ -179,7 +179,7 @@ layout = html.Div([
                     html.H2(pikaso_title),
                     html.H5(pikaso_subtitle),
                     html.P(pikaso_desc),
-                    html.Hr(),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
                     html.H6(pikaso_access),
                     html.A('امتحان می‌کنم', href=pikaso_link, target='_blank', id='goto', className='vislink'),
                     dbc.Row([
@@ -199,7 +199,7 @@ layout = html.Div([
                     html.H2(open_title),
                     html.H5(open_subtitle),
                     html.P(open_desc),
-                    html.Hr(),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
                     html.H6(open_access),
                     html.A('امتحان می‌کنم', href=open_link, target='_blank', id='goto', className='vislink'),
                     dbc.Row([
@@ -219,7 +219,7 @@ layout = html.Div([
                     html.H2(openart_title),
                     html.H5(openart_subtitle),
                     html.P(openart_desc),
-                    html.Hr(),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
                     html.H6(openart_access),
                     html.A('امتحان می‌کنم', href=openart_link, target='_blank', id='goto', className='vislink'),
                     dbc.Row([
@@ -239,7 +239,7 @@ layout = html.Div([
                     html.H2(qriginals_title),
                     html.H5(qriginals_subtitle),
                     html.P(qriginals_desc),
-                    html.Hr(),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
                     html.H6(qriginals_access),
                     html.A('امتحان می‌کنم', href=qriginals_link, target='_blank', id='goto', className='vislink'),
                     dbc.Row([
@@ -259,7 +259,7 @@ layout = html.Div([
                     html.H2(unstability_title),
                     html.H5(unstability_subtitle),
                     html.P(unstability_desc),
-                    html.Hr(),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
                     html.H6(unstability_access),
                     html.A('امتحان می‌کنم', href=unstability_link, target='_blank', id='goto', className='vislink'),
                     dbc.Row([
@@ -279,7 +279,7 @@ layout = html.Div([
                     html.H2(tokkingheads_title),
                     html.H5(tokkingheads_subtitle),
                     html.P(tokkingheads_desc),
-                    html.Hr(),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
                     html.H6(tokkingheads_access),
                     html.A('امتحان می‌کنم', href=tokkingheads_link, target='_blank', id='goto', className='vislink'),
                     dbc.Row([
@@ -299,7 +299,7 @@ layout = html.Div([
                     html.H2(genmo_title),
                     html.H5(genmo_subtitle),
                     html.P(genmo_desc),
-                    html.Hr(),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
                     html.H6(genmo_access),
                     html.A('امتحان می‌کنم', href=genmo_link, target='_blank', id='goto', className='vislink'),
                     dbc.Row([
@@ -319,7 +319,7 @@ layout = html.Div([
                     html.H2(firefly_title),
                     html.H5(firefly_subtitle),
                     html.P(firefly_desc),
-                    html.Hr(),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
                     html.H6(firefly_access),
                     html.A('امتحان می‌کنم', href=firefly_link, target='_blank', id='goto', className='vislink'),
                     dbc.Row([
@@ -339,7 +339,7 @@ layout = html.Div([
                     html.H2(steveai_title),
                     html.H5(steveai_subtitle),
                     html.P(steveai_desc),
-                    html.Hr(),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
                     html.H6(steveai_access),
                     html.A('امتحان می‌کنم', href=steveai_link, target='_blank', id='goto', className='vislink'),
                     dbc.Row([
@@ -359,7 +359,7 @@ layout = html.Div([
                     html.H2(vidyoai_title),
                     html.H5(vidyoai_subtitle),
                     html.P(vidyoai_desc),
-                    html.Hr(),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
                     html.H6(vidyoai_access),
                     html.A('امتحان می‌کنم', href=vidyoai_link, target='_blank', id='goto', className='vislink'),
                     dbc.Row([
@@ -379,7 +379,7 @@ layout = html.Div([
                     html.H2(elai_title),
                     html.H5(elai_subtitle),
                     html.P(elai_desc),
-                    html.Hr(),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
                     html.H6(elai_access),
                     html.A('امتحان می‌کنم', href=elai_link, target='_blank', id='goto', className='vislink'),
                     dbc.Row([

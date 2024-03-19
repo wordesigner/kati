@@ -35,7 +35,7 @@ layout = html.Div([
                     html.H2(vana_title),
                     html.H5(vana_subtitle),
                     html.P(vana_desc),
-                    html.Hr(),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
                     html.H6(vana_access),
                     html.A('امتحان می‌کنم', href=vana_link, target='_blank', id='goto', className='vislink'),
                     dbc.Row([
@@ -55,7 +55,7 @@ layout = html.Div([
                     html.H2(ideamap_title),
                     html.H5(ideamap_subtitle),
                     html.P(ideamap_desc),
-                    html.Hr(),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
                     html.H6(ideamap_access),
                     html.A('امتحان می‌کنم', href=ideamap_link, target='_blank', id='goto', className='vislink'),
                     dbc.Row([

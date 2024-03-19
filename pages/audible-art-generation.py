@@ -56,7 +56,7 @@ layout = html.Div([
                     html.H2(ttsmaker_title),
                     html.H5(ttsmaker_subtitle),
                     html.P(ttsmaker_desc),
-                    html.Hr(),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
                     html.H6(ttsmaker_access),
                     html.A('امتحان می‌کنم', href=ttsmaker_link, target='_blank', id='goto', className='vislink'),
                     dbc.Row([
@@ -76,7 +76,7 @@ layout = html.Div([
                     html.H2(moisesai_title),
                     html.H5(moisesai_subtitle),
                     html.P(moisesai_desc),
-                    html.Hr(),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
                     html.H6(moisesai_access),
                     html.A('امتحان می‌کنم', href=moisesai_link, target='_blank', id='goto', className='vislink'),
                     dbc.Row([
@@ -96,7 +96,7 @@ layout = html.Div([
                     html.H2(stableaudio_title),
                     html.H5(stableaudio_subtitle),
                     html.P(stableaudio_desc),
-                    html.Hr(),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
                     html.H6(stableaudio_access),
                     html.A('امتحان می‌کنم', href=stableaudio_link, target='_blank', id='goto', className='vislink'),
                     dbc.Row([
@@ -116,7 +116,7 @@ layout = html.Div([
                     html.H2(suno_title),
                     html.H5(suno_subtitle),
                     html.P(suno_desc),
-                    html.Hr(),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
                     html.H6(suno_access),
                     html.A('امتحان می‌کنم', href=suno_link, target='_blank', id='goto', className='vislink'),
                     dbc.Row([
@@ -136,7 +136,7 @@ layout = html.Div([
                     html.H2(musicfy_title),
                     html.H5(musicfy_subtitle),
                     html.P(musicfy_desc),
-                    html.Hr(),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
                     html.H6(musicfy_access),
                     html.A('امتحان می‌کنم', href=musicfy_link, target='_blank', id='goto', className='vislink'),
                     dbc.Row([
