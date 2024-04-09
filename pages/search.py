@@ -218,7 +218,23 @@ katiData = [
         'access' : 'پولی و رایگان',
         'link' : 'https://ideamap.ai/',
         'tag' : 'ideamap'
-    }
+    },
+    {
+        'title' : 'استیو',
+        'subtitle' : '',
+        'desc' : 'با استفاده از یک پرامپت می‌تواند طیف متنوعی از ویدیوها از جمله انیمیشن و یا ویدیوی زنده را تولید کند',
+        'access' : 'پولی و رایگان',
+        'link' : 'https://www.steve.ai/',
+        'tag' : 'steveai'
+    },
+    {
+        'title' : 'ویدیا',
+        'subtitle' : '',
+        'desc' : 'این ابزار می‌تواند یک ویدیو بلند را به چند ویدیو کوتاه تبدیل کرده و به آنها عبارت کلیدی اضافه کند',
+        'access' : 'پولی و رایگان',
+        'link' : 'https://app.vidyo.ai/',
+        'tag' : 'vidyo'
+    },
 ]
 """
 layout = html.Div([
