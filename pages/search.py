@@ -235,6 +235,14 @@ katiData = [
         'link' : 'https://app.vidyo.ai/',
         'tag' : 'vidyo'
     },
+    {
+        'title' : 'الای',
+        'subtitle' : '',
+        'desc' : 'این ابزار با استفاده از مجری های ساخته شده از هوش مصنوعی، ویدیوهای تبلیغاتی و آموزشی می‌سازد',
+        'access' : 'پولی و رایگان',
+        'link' : 'https://elai.io/',
+        'tag' : 'elai'
+    },
 ]
 """
 layout = html.Div([
