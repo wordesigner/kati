@@ -244,20 +244,20 @@ katiData = [
         'tag' : 'elai'
     },
     {
-        'aidetector_title' : 'ای آی دیتکتر',
-        'aidetector_subtitle' : '',
-        'aidetector_desc' : 'ممکن است شما تولید یک محتوا را سفارش داده باشید. این ابزار متن تولید شده را بررسی می‌کند و به شما می‌گوید که با هوش مصنوعی تولید شده است یا خیر',
-        'aidetector_access' : 'پولی و رایگان',
-        'aidetector_link' : 'https://undetectable.ai/',
-        'aidetector_tag' : 'undetectable',
+        'title' : 'ای آی دیتکتر',
+        'subtitle' : '',
+        'desc' : 'ممکن است شما تولید یک محتوا را سفارش داده باشید. این ابزار متن تولید شده را بررسی می‌کند و به شما می‌گوید که با هوش مصنوعی تولید شده است یا خیر',
+        'access' : 'پولی و رایگان',
+        'link' : 'https://undetectable.ai/',
+        'tag' : 'undetectable',
     },
     {
-        'lexica_title' : 'لکسیکا',
-        'lexica_subtitle' : '',
-        'lexica_desc' : 'لکسیکا از پرامپت‌های شما تصویر تولید می‌کند و به شما امکان می‌دهد بر اساس سبک هر تصویر، در میان تصویر‌های مشابه هم جستجو کنید',
-        'lexica_access' : 'رایگان و پولی',
-        'lexica_link' : 'https://lexica.art/',
-        'lexica_tag' : 'lexica',
+        'title' : 'لکسیکا',
+        'subtitle' : '',
+        'desc' : 'لکسیکا از پرامپت‌های شما تصویر تولید می‌کند و به شما امکان می‌دهد بر اساس سبک هر تصویر، در میان تصویر‌های مشابه هم جستجو کنید',
+        'access' : 'رایگان و پولی',
+        'link' : 'https://lexica.art/',
+        'tag' : 'lexica',
     }
 ]
 """
