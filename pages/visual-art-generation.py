@@ -12,6 +12,14 @@ register_page(
     __name__
 )
 
+
+lexica_title = 'لکسیکا'
+lexica_subtitle = ''
+lexica_desc = 'لکسیکا از پرامپت‌های شما تصویر تولید می‌کند و به شما امکان می‌دهد بر اساس سبک هر تصویر، در میان تصویر‌های مشابه هم جستجو کنید'
+lexica_access = 'رایگان و پولی'
+lexica_link = 'https://lexica.art/'
+lexica_tag = 'lexica'
+
 distillery_title = 'دیستیلری'
 distillery_subtitle = 'followfox'
 distillery_desc = 'یکی از راهکارهای موثر برای تولید تصاویر از متن بر بستر هوش مصنوعی با استفاده از پارامترهای متنوع است' 
@@ -388,6 +396,26 @@ layout = html.Div([
                         ], md=3, width={'offset':7}),
                         dbc.Col([
                             dbc.Button(elai_tag, color='#00a693', size='sm', outline=True),
+                        ], md=2)
+                    ])
+                ], className='mb-1')
+            ], md=6, className='whole-card'),
+        ]),
+        dbc.Row([
+            dbc.Col([
+                html.Div([
+                    html.H2(lexica_title),
+                    html.H5(lexica_subtitle),
+                    html.P(lexica_desc),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
+                    html.H6(lexica_access),
+                    html.A('امتحان می‌کنم', href=lexica_link, target='_blank', id='goto', className='vislink'),
+                    dbc.Row([
+                        dbc.Col([
+                            dbc.Button('بیشتر بدانید', href='', color='#00a693', size='sm', outline=True),
+                        ], md=3, width={'offset':7}),
+                        dbc.Col([
+                            dbc.Button(lexica_tag, color='#00a693', size='sm', outline=True),
                         ], md=2)
                     ])
                 ], className='mb-1')

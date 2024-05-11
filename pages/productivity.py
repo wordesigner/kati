@@ -26,6 +26,13 @@ ideamap_access = 'پولی و رایگان'
 ideamap_link = 'https://ideamap.ai/'
 ideamap_tag = 'ideamap'
 
+aidetector_title = 'ای آی دیتکتر'
+aidetector_subtitle = ''
+aidetector_desc = 'ممکن است شما تولید یک محتوا را سفارش داده باشید. این ابزار متن تولید شده را بررسی می‌کند و به شما می‌گوید که با هوش مصنوعی تولید شده است یا خیر'
+aidetector_access = 'پولی و رایگان'
+aidetector_link = 'https://undetectable.ai/'
+aidetector_tag = 'undetectable'
+
 
 layout = html.Div([
     dbc.Container([
@@ -64,6 +71,26 @@ layout = html.Div([
                         ], md=3, width={'offset':7}),
                         dbc.Col([
                             dbc.Button(ideamap_tag, color='#00a693', size='sm', outline=True),
+                        ], md=2)
+                    ])
+                ], className='mb-1')
+            ], md=6, className='whole-card'),
+        ]),
+        dbc.Row([
+            dbc.Col([
+                html.Div([
+                    html.H2(aidetector_title),
+                    html.H5(aidetector_subtitle),
+                    html.P(aidetector_desc),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
+                    html.H6(aidetector_access),
+                    html.A('امتحان می‌کنم', href=aidetector_link, target='_blank', id='goto', className='vislink'),
+                    dbc.Row([
+                        dbc.Col([
+                            dbc.Button('بیشتر بدانید', href='', color='#00a693', size='sm', outline=True),
+                        ], md=3, width={'offset':7}),
+                        dbc.Col([
+                            dbc.Button(aidetector_tag, color='#00a693', size='sm', outline=True),
                         ], md=2)
                     ])
                 ], className='mb-1')
