@@ -12,6 +12,12 @@ register_page(
     __name__
 )
 
+luma_title = 'لوما'
+luma_subtitle = ''
+luma_desc = 'ابزارهای تبدیل متن به ویدیو از گروه ابزارهای فوق‌العاده جذاب هوش مصنوعی هستند. ماشین رویاساز لوما از متن ورودی، ویدیو های پنج ثانیه‌ای فوق‌العاده می‌سازد'
+luma_access = 'رایگان و پولی'
+luma_link = 'https://lumalabs.ai/dream-machine'
+luma_tag = 'luma dream machine'
 
 lexica_title = 'لکسیکا'
 lexica_subtitle = ''
@@ -416,6 +422,26 @@ layout = html.Div([
                         ], md=3, width={'offset':7}),
                         dbc.Col([
                             dbc.Button(lexica_tag, color='#00a693', size='sm', outline=True),
+                        ], md=2)
+                    ])
+                ], className='mb-1')
+            ], md=6, className='whole-card'),
+        ]),
+        dbc.Row([
+            dbc.Col([
+                html.Div([
+                    html.H2(luma_title),
+                    html.H5(luma_subtitle),
+                    html.P(luma_desc),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
+                    html.H6(luma_access),
+                    html.A('امتحان می‌کنم', href=luma_link, target='_blank', id='goto', className='vislink'),
+                    dbc.Row([
+                        dbc.Col([
+                            dbc.Button('بیشتر بدانید', href='', color='#00a693', size='sm', outline=True),
+                        ], md=3, width={'offset':7}),
+                        dbc.Col([
+                            dbc.Button(luma_tag, color='#00a693', size='sm', outline=True),
                         ], md=2)
                     ])
                 ], className='mb-1')
