@@ -124,6 +124,13 @@ elai_access = 'پولی و رایگان'
 elai_link = 'https://elai.io/'
 elai_tag = 'elai'
 
+grok_title = 'گراک'
+grok_subtitle = 'x.ai'
+grok_desc = 'با پاسخ‌دهی سریع و با کیفیت بالا، این سرویس هوش مصنوعی به کاربران ایکس (توییتر) امکان می‌دهد متن را به تصویر تبدیل کنند یا تصویر های آپلود شده را تحلیل نمایند' 
+grok_access = 'پولی'
+grok_link = 'https://x.ai/'
+grok_tag = 'grok'
+
 
 layout = html.Div([
     dbc.Container([
@@ -442,6 +449,26 @@ layout = html.Div([
                         ], md=3, width={'offset':7}),
                         dbc.Col([
                             dbc.Button(luma_tag, color='#00a693', size='sm', outline=True),
+                        ], md=2)
+                    ])
+                ], className='mb-1')
+            ], md=6, className='whole-card'),
+        ]),
+        dbc.Row([
+            dbc.Col([
+                html.Div([
+                    html.H2(grok_title),
+                    html.H5(grok_subtitle),
+                    html.P(grok_desc),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
+                    html.H6(grok_access),
+                    html.A('امتحان می‌کنم', href=grok_link, target='_blank', id='goto', className='vislink'),
+                    dbc.Row([
+                        dbc.Col([
+                            dbc.Button('بیشتر بدانید', href='', color='#00a693', size='sm', outline=True),
+                        ], md=3, width={'offset':7}),
+                        dbc.Col([
+                            dbc.Button(grok_tag, color='#00a693', size='sm', outline=True),
                         ], md=2)
                     ])
                 ], className='mb-1')
