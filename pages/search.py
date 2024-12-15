@@ -290,6 +290,14 @@ katiData = [
         'access' : 'رایگان و پولی',
         'link' : 'https://www.perplexity.ai/',
         'tag' : 'perplexity',
+    },
+    {
+        'title' : 'لیلا',
+        'subtitle' : 'layla',
+        'desc' : 'همسفر مجازی شما بر پایه هوش مصنوعی؛ به شما برنامه سفر می‌دهد، هتل معرفی می‌کند و شاید حتی ایده‌های جالبی برای شروع سفر داشته باشد!',
+        'access' : 'رایگان',
+        'link' : 'https://layla.ai/',
+        'tag' : 'layla',
     }
 ]
 """
