@@ -33,6 +33,13 @@ aidetector_access = 'پولی و رایگان'
 aidetector_link = 'https://undetectable.ai/'
 aidetector_tag = 'undetectable'
 
+perplexity_title = 'پرپلکسیتی'
+perplexity_subtitle = 'Perplexity AI'
+perplexity_desc = 'این یک موتور جستجو است با این تفاوت که نتایج را برای شما خلاصه می‌کند و در یک قالب کاربر پسند به شما ارائه می‌دهد. اینجا خبری از لینک‌ها نیست، به جستجوی شما پاسخ داده می‌شود'
+perplexity_access = 'پولی و رایگان'
+perplexity_link = 'https://www.perplexity.ai/'
+perplexity_tag = 'perplexity'
+
 
 layout = html.Div([
     dbc.Container([
@@ -91,6 +98,26 @@ layout = html.Div([
                         ], md=3, width={'offset':7}),
                         dbc.Col([
                             dbc.Button(aidetector_tag, color='#00a693', size='sm', outline=True),
+                        ], md=2)
+                    ])
+                ], className='mb-1')
+            ], md=6, className='whole-card'),
+        ]),
+        dbc.Row([
+            dbc.Col([
+                html.Div([
+                    html.H2(perplexity_title),
+                    html.H5(perplexity_subtitle),
+                    html.P(perplexity_desc),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
+                    html.H6(perplexity_access),
+                    html.A('امتحان می‌کنم', href=perplexity_link, target='_blank', id='goto', className='vislink'),
+                    dbc.Row([
+                        dbc.Col([
+                            dbc.Button('بیشتر بدانید', href='', color='#00a693', size='sm', outline=True),
+                        ], md=3, width={'offset':7}),
+                        dbc.Col([
+                            dbc.Button(perplexity_tag, color='#00a693', size='sm', outline=True),
                         ], md=2)
                     ])
                 ], className='mb-1')
