@@ -131,6 +131,13 @@ grok_access = 'پولی'
 grok_link = 'https://x.ai/'
 grok_tag = 'grok'
 
+glif_title = 'گلیف'
+glif_subtitle = 'Spellcasters'
+glif_desc = 'این سرویس تقریبا توانایی هر نوع محتوای به محتوای دستکاری شده با هوش مصنوعی را دارد. اگرچه تجربه کاربری گلیف چندان جالب نیست اما قابلیت‌های چشمگیری در ایجاد تصویر، کمیک، طراحی کارکتر، صداسازی و ساخت ویدیو دارد' 
+glif_access = ' پولی و رایگان'
+glif_link = 'https://glif.app/glifs'
+glif_tag = 'glif'
+
 
 layout = html.Div([
     dbc.Container([
@@ -469,6 +476,26 @@ layout = html.Div([
                         ], md=3, width={'offset':7}),
                         dbc.Col([
                             dbc.Button(grok_tag, color='#00a693', size='sm', outline=True),
+                        ], md=2)
+                    ])
+                ], className='mb-1')
+            ], md=6, className='whole-card'),
+        ]),
+        dbc.Row([
+            dbc.Col([
+                html.Div([
+                    html.H2(glif_title),
+                    html.H5(glif_subtitle),
+                    html.P(glif_desc),
+                    html.Hr(style={'margin-right':'1rem', 'margin-left':'1rem'}),
+                    html.H6(glif_access),
+                    html.A('امتحان می‌کنم', href=glif_link, target='_blank', id='goto', className='vislink'),
+                    dbc.Row([
+                        dbc.Col([
+                            dbc.Button('بیشتر بدانید', href='', color='#00a693', size='sm', outline=True),
+                        ], md=3, width={'offset':7}),
+                        dbc.Col([
+                            dbc.Button(glif_tag, color='#00a693', size='sm', outline=True),
                         ], md=2)
                     ])
                 ], className='mb-1')
